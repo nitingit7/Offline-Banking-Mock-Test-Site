@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analyse – Banking Mock Test</title>
+  <script>
+    // Thin redirect: forwards all query params and sets mode=analyse to render analysis inside exam.html
+    const params = new URLSearchParams(window.location.search);
+    params.set('mode', 'analyse');
+    window.location.replace('exam.html?' + params.toString());
+  </script>
+</head>
+<body style="font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #f5f5f5; color: #555;">
+  <p>Loading analysis...</p>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Results – Banking Mock Test</title>
+  <link rel="stylesheet" href="css/common.css?v=desk1" />
+  <link rel="stylesheet" href="css/result.css?v=desk1" />
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="result-header" id="result-header" role="banner">
+    <div class="result-header-inner">
+      <span class="result-exam-name">Results</span>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <main class="result-main" role="main">
+    <div class="result-inner">
+
+      <!-- Action buttons (top) -->
+      <div class="result-card">
+        <h3>Your Result</h3>
+        <div class="result-actions">
+          <button class="btn-result-analyse" id="btn-analyse">🔍 Analyse</button>
+          <button class="btn-result-reattempt-full" id="btn-reattempt-full">🔄 Re-attempt Full Test</button>
+          <button class="btn-result-reattempt-wrong" id="btn-reattempt-wrong">🎯 Re-attempt Wrong &amp; Unattempted</button>
+          <button class="btn-result-new" id="btn-new-test">📂 Load Another Test</button>
+        </div>
+      </div>
+
+      <!-- Overall score -->
+      <div class="result-card" id="result-overall">
+        <!-- Rendered by result.js -->
+      </div>
+
+      <!-- Section-wise table -->
+      <div class="result-card" id="result-sections">
+        <!-- Rendered by result.js -->
+      </div>
+
+      <!-- Charts -->
+      <div class="result-card" id="result-charts">
+        <!-- Rendered by result.js -->
+      </div>
+
+      <!-- Question time table -->
+      <div class="result-card" id="q-time-table">
+        <!-- Rendered by result.js -->
+      </div>
+
+      <!-- Attempt history (shown if > 1 attempt) -->
+      <div class="result-card" id="result-attempt-history">
+        <!-- Rendered by result.js -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="result-footer" id="result-footer">Version : 17.07.00</footer>
+
+  <!-- Scripts -->
+  <script src="js/sanitiser.js?v=desk1"></script>
+  <script src="js/storage.js?v=desk1"></script>
+  <script src="js/validator.js?v=desk1"></script>
+  <script src="js/timer.js?v=desk1"></script>
+  <script src="js/state.js?v=desk1"></script>
+  <script src="js/renderer.js?v=desk1"></script>
+  <script src="js/result.js?v=desk1"></script>
+
+</body>
+</html>
